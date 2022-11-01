@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+
+    <title>Basketball Score Count</title>
+  </head>
+  <body>
+    <main>
+      <article id="scores">
+        <section id="home">
+          <h1>HOME</h1>
+          <h2 id="score-home">0</h2>
+          <span>
+            <button onclick="onePoint()">+1</button>
+            <button onclick="twoPoint()">+2</button>
+            <button onclick="threePoint()">+3</button></span
+          >
+        </section>
+        <section id="guest">
+          <h1>GUEST</h1>
+          <h2 id="score-guest">0</h2>
+          <span>
+            <button onclick="onePointGuest()">+1</button>
+            <button onclick="twoPointGuest()">+2</button>
+            <button onclick="threePointGuest()">+3</button></span
+          >
+        </section>
+      </article>
+      <section id="reset">
+        <button id="btn-reset" onclick="reset()">RESET</button>
+      </section>
+    </main>
+    <script src="index.js"></script>
+  </body>
+  <footer>
+    <p>
+      Project made in a course by
+      <a href=" https://scrimba.com/" taget="_blank">Scrimba</a>
+    </p>
+  </footer>
+</html>
