@@ -11,6 +11,7 @@ html {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-size: 16px;
 }
 
 body {
@@ -54,37 +55,51 @@ article {
   margin: 2%;
 }
 
-h1 {
-  margin: 2%;
-  font-size: 6vw;
+h3 {
+  margin: 0;
+  font-size: 3em;
   color: #ededed;
   text-shadow: 2px 2px 5px #2a2a2a;
+  letter-spacing: 0.1em;
+  width: 100%;
+  text-align: center;
 }
 
-h2 {
+h4 {
   background-color: rgba(34, 34, 34, 0.504);
   border-radius: 8px;
-  font-size: 8vw;
+  font-size: 5em;
   padding: 10%;
-  margin: 10%;
+  margin: 5%;
+  width: 55%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  text-align: center;
 }
 
-button,
+button {
+  cursor: pointer;
+  font-family: basketball;
+  color: rgb(247, 247, 247);
+  padding: 0.8vh 1.6vw;
+  background-color: rgba(34, 34, 34, 0.504);
+  border-radius: 5px;
+  width: 30%;
+}
+
 #btn-reset {
   cursor: pointer;
   font-family: basketball;
   color: rgb(247, 247, 247);
   padding: 0.8vh 1.6vw;
-  background-color: rgba(27, 27, 27, 0.353);
+  background-color: rgba(34, 34, 34, 0.504);
   border-radius: 5px;
-  width: auto;
+  width: 20%;
 }
-
 button:hover {
   color: rgb(101, 181, 103);
   background-color: rgba(68, 68, 68, 0.353);
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
-    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  box-shadow: rgba(44, 59, 46, 0.25) 0px 6px 12px -2px,
+    rgba(53, 53, 53, 0.3) 0px 3px 7px -3px;
 }
 
 #btn-reset:hover {
